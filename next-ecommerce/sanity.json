@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "next-ecommerce"
-  },
   "api": {
     "projectId": "zymqvhch",
     "dataset": "production"
+  },
+  "project": {
+    "name": "next-ecommerce"
   },
   "plugins": [
     "@sanity/base",

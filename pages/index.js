@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroBanner, Product, FooterBanner } from "../components"
+import { HeroBanner, Product, FooterBanner, Layout } from "../components"
 import { client } from '../lib/client'
 
 const Home = ({ products, bannerData }) => {
@@ -18,7 +18,7 @@ const Home = ({ products, bannerData }) => {
         }
       </div>
 
-      <FooterBanner />
+      <FooterBanner footerData={bannerData && bannerData[0]} />
     </>
   )
 }
