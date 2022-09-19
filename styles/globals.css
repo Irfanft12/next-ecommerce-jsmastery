@@ -352,12 +352,15 @@ padding: 20px 10px;
     border-radius: 15px;
  background-color: #ebebeb;
 }
+.cart-wrapper .item-desc {
+  width: 60%;
+}
 .item-desc .flex{
   display: flex;
   justify-content: space-between;
-  width: 350px;
-   color: #324d67;
-
+  max-width: 350px;
+  color: #324d67;
+  width: 100%;
 }
 .item-desc .bottom{
   margin-top: 60px;
@@ -509,7 +512,6 @@ padding: 30px 65px;
 }
 .buttons .buy-now{
   width: 200px;
-
   padding: 10px 20px;
   background-color: #f02d34;
   color: white;
@@ -518,7 +520,7 @@ padding: 30px 65px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-   transform: scale(1, 1);
+  transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 .buttons .buy-now:hover{
@@ -526,20 +528,21 @@ padding: 30px 65px;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+  padding: 0px;
+  display: flex;
 }
-.quantity-desc span{
+.quantity-desc span {
   font-size: 16px;
   padding: 6px 12px;
   cursor: pointer;
+  display: inline-block;
 }
-.quantity-desc .minus{
+.quantity-desc .minus {
   border-right: 1px solid gray;
   color: #f02d34;
 }
 .quantity-desc .num{
   border-right: 1px solid gray;
-  font-size: 20px;
 }
 .quantity-desc .plus{
   color: rgb(49, 168, 49);
