@@ -277,7 +277,7 @@ text-align: end;
   transition: all 1s ease-in-out;
 
 }
-.cart-container{
+.cart-container {
   height: 100vh;
   width: 600px;
   background-color: white;
@@ -413,8 +413,9 @@ padding: 30px 65px;
   background-color: #f02d34;
   color: #fff;
   cursor: pointer;
-    transform: scale(1, 1);
+  transform: scale(1, 1);
   transition: transform 0.5s ease;
+  display: inline-block;
 }
 .btn:hover{
   transform: scale(1.1,1.1);

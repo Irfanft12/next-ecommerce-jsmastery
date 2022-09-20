@@ -69,9 +69,11 @@ const Cart = () => {
               <h3>₹{totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type='button' className='btn' onclick="">
-                Pay with Stripe
-              </button>
+              <Link href="/success">
+                <a className='btn'>
+                  Proceed to Checkout
+                </a>
+              </Link>
             </div>
           </div>
         )}

@@ -90,7 +90,10 @@ const decQty = () => {
                 decQty,
                 onAdd,
                 toggleCartItemQuantity,
-                onRemove
+                onRemove,
+                setCartItems,
+                setTotalPrice,
+                setTotalQuantities
             }}
             >
             {children}
