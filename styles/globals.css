@@ -284,6 +284,7 @@ text-align: end;
   float: right;
   padding: 40px 10px;
   position: relative;
+  text-align: center;
   
 }
 
@@ -688,7 +689,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
